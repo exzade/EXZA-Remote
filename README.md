@@ -8,7 +8,7 @@
 
 ### Your computer. Your control. With ChatGPT and Claude.
 
-**Connect compatible AI assistants to your own computer, with device pairing, account controls, and approval for sensitive actions.**
+**An MCP server for AI-powered remote computer access: connect ChatGPT, Claude, and other compatible AI assistants to your own Mac, Windows, or Linux computer with secure device pairing and owner-controlled permissions.**
 
 [**Visit Website**](https://remote.exza.de/) · [**Get Started**](https://remote.exza.de/app/) · [**Documentation**](https://remote.exza.de/help) · [**Explore Prompt Library**](https://remote.exza.de/prompts/)
 
@@ -17,6 +17,21 @@
 </div>
 
 ---
+
+## AI remote computer access with MCP — without giving up control
+
+EXZA Remote helps developers, creators, and technical teams connect **ChatGPT or Claude to their own computer** through the **Model Context Protocol (MCP)**. It is a remotely accessible MCP service with a local computer client, not a cloud-hosted virtual desktop or a generic code repository.
+
+**Why use it?** You can ask an authorized AI assistant to inspect supported files, check a system, follow a terminal job, or handle compatible desktop tasks — while keeping permissions, device pairing, and sensitive-action approvals under your control. Available capabilities depend on your operating system, AI client, and authorized scope.
+
+| For | Example benefit |
+| --- | --- |
+| **Software developers** | Review permitted project files and run an approved local test without pasting every terminal result into chat. |
+| **IT and technical support** | Inspect device status and allowed diagnostic output from a paired computer. |
+| **3D creators and makers** | Use supported desktop and terminal workflows for authorized local scripts and applications. |
+| **Everyday productivity** | Coordinate approved file and application tasks through your AI assistant. |
+
+**Try EXZA Remote:** [Create an account and pair a device](https://remote.exza.de/app/) · [Read the installation guide](docs/GETTING_STARTED.md) · [See the supported platforms](docs/PLATFORMS.md)
 
 ## AI can help. You stay in control.
 
