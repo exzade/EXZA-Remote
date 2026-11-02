@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
-  <title id="title">EXZA Remote</title>
-  <desc id="desc">Professional EXZA Remote banner: Your computer. Your control. With ChatGPT and Claude. Stylized secure connection diagram.</desc>
+  <title id="title">EXZA Remote — AI Computer Commander</title>
+  <desc id="desc">Professional EXZA Remote AI Computer Commander banner: Your computer. Your control. With ChatGPT and Claude. Stylized secure connection diagram.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#0D1626"/><stop offset="1" stop-color="#192D43"/></linearGradient>
     <linearGradient id="line" x1="0" x2="1"><stop stop-color="#75B1E1" stop-opacity=".28"/><stop offset=".55" stop-color="#8FBEDB"/><stop offset="1" stop-color="#75B1E1" stop-opacity=".28"/></linearGradient>
@@ -11,8 +11,9 @@
   <path d="M58 54h37" stroke="#8FBBD7" stroke-width="3" stroke-linecap="round"/>
   <text x="58" y="96" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="5" fill="#C0D4E8">EXZA / TECHNOLOGIES</text>
   <text x="58" y="196" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="77" font-weight="750" letter-spacing="-2" fill="#FFFFFF">EXZA <tspan fill="#8EB5DA">Remote</tspan></text>
-  <text x="61" y="248" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="25" font-weight="500" fill="#D6E3F1">Your computer. Your control.</text>
-  <text x="61" y="287" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="20" fill="#9EB6CF">With ChatGPT, Claude and compatible MCP clients.</text>
+  <text x="61" y="245" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing=".5" fill="#D6E3F1">AI Computer Commander</text>
+  <text x="61" y="279" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="20" font-weight="500" fill="#BFD6E8">Your computer. Your control.</text>
+  <text x="61" y="309" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="17" fill="#9EB6CF">With ChatGPT, Claude and compatible MCP clients.</text>
   <rect x="59" y="328" width="238" height="43" rx="21" fill="#243D56" stroke="#486984"/>
   <text x="178" y="356" text-anchor="middle" font-family="-apple-system, Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#D9E9F6">remote.exza.de</text>
   <path d="M690 219H770M840 219H913" stroke="url(#line)" stroke-width="4" stroke-linecap="round" stroke-dasharray="4 12"/>
