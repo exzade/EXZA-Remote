@@ -34,11 +34,36 @@ Your computer. Your control. EXZA Remote bridges compatible AI assistants such a
 
 ## Suggested launch headline
 
-**Show HN: EXZA Remote — controlled computer access for ChatGPT and Claude via MCP**
+**EXZA Remote — permission-aware MCP access to your own computer**
 
 ## Suggested introduction (technical community)
 
 We built EXZA Remote to let compatible AI assistants work with a computer you own, without treating every request as unlimited permission. The service uses MCP, account login, explicit device pairing, and local approvals for sensitive actions. It currently registers 59 MCP tool interfaces, with OS-specific availability. We would appreciate feedback on onboarding, permissions, and real-world workflows. Product information: https://remote.exza.de/
+
+## Product Hunt listing copy
+
+**Name:** EXZA Remote
+
+**Tagline (under 60 characters):** Connect AI to your own computer via MCP
+
+**Short description:** EXZA Remote connects compatible ChatGPT, Claude, and MCP clients to your own computer. Pair a device in the browser, authorize the AI client, and use supported file, terminal, and system tools with permission-aware approvals.
+
+**Product URL:** https://remote.exza.de/
+
+**Pricing:** Free plan available; paid upgrade offered. Current plan terms and prices are shown on the official website.
+
+**Suggested topics:** Artificial Intelligence · Developer Tools · Productivity
+
+**Maker's first comment:**
+
+> I built EXZA Remote because I wanted an AI assistant to help with real work on my own computer without treating every request as blanket permission. It uses a paired local client and an authenticated MCP connection. Supported commands and file operations still depend on access scope and approvals. I'm looking for candid feedback from developers and early users on the pairing flow, permissions, and where this is genuinely useful. You can start at https://remote.exza.de/ — please review the security model before enabling sensitive actions.
+
+## Developer-community sharing guidance
+
+- **r/mcp or r/SideProject:** Lead with the specific problem solved and the technical architecture; include the GitHub documentation and product URL only where the community's current rules permit product links. Disclose that this is a proprietary hosted service with a free plan, **not** an open-source local MCP server.
+- **Hacker News:** A Show HN submission is appropriate only once visitors can actually try the product easily. HN discourages mere landing pages and sign-up barriers. Until then, do not advertise the product as a submitted or approved Show HN.
+- **Product Hunt:** Submit through a personal maker account, ideally with a genuine demo video and screenshots; invite feedback, not upvotes.
+- **Do not** post duplicate messages across communities, claim official affiliation with OpenAI/Anthropic, or imply 59 universal capabilities on every OS.
 
 ## Visuals
 
