@@ -14,7 +14,7 @@ Your computer. Your control. With ChatGPT and Claude.
 
 **An MCP server for AI-powered remote computer access: connect ChatGPT, Claude, and other compatible AI assistants to your own Mac, Windows, or Linux computer with secure device pairing and owner-controlled permissions.**
 
-[**Visit Website**](https://remote.exza.de/) · [**Get Started**](https://remote.exza.de/app/) · [**Documentation**](https://remote.exza.de/help) · [**Explore Prompt Library**](https://remote.exza.de/prompts/)
+[**Visit Website**](https://remote.exza.de/) · [**Get Started**](https://remote.exza.de/app/) · [**Installation Commands**](#install-exza-remote--terminal-commands) · [**Documentation**](https://remote.exza.de/help) · [**Explore Prompt Library**](https://remote.exza.de/prompts/)
 
 [Deutsch](README.de.md) · [Security](SECURITY.md) · [Support](https://remote.exza.de/help)
 
@@ -84,6 +84,79 @@ The local computer remains yours. Connections and actions depend on your session
 6. Begin with a harmless action such as checking device connection status.
 
 **Follow the current platform-specific steps in the [official documentation](https://remote.exza.de/help).** Never paste passwords, device secrets, or access tokens into an AI conversation.
+
+## Install EXZA Remote — terminal commands
+
+You **do not need to clone this GitHub repository**. It is a public product presentation, not a source-code download. Install the client from the official [EXZA Remote website](https://remote.exza.de/) on a computer you own or are authorized to use.
+
+**Requirements:** [Node.js 22+](https://nodejs.org/) including npm, internet access, and an EXZA account. macOS/Linux also require curl, unzip and a SHA-256 utility. **Administrator/root access is not needed.**
+
+### macOS — Terminal
+
+Open Terminal and verify that Node.js and npm are installed:
+
+\`\`\`sh
+node --version
+npm --version
+\`\`\`
+
+Then run the **same official command shown in the EXZA customer portal**:
+
+\`\`\`sh
+curl -fsSL https://remote.exza.de/install.sh -o exza-install.sh && sh exza-install.sh
+\`\`\`
+
+### Windows 10/11 — PowerShell
+
+Open PowerShell as a **normal user**, check the prerequisites, download the official script and run it:
+
+\`\`\`powershell
+node --version
+npm --version
+curl.exe -fsSL https://remote.exza.de/install.ps1 -o exza-install.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File .\exza-install.ps1
+\`\`\`
+
+The \`-ExecutionPolicy Bypass\` option applies only to that PowerShell process, not to the permanent system policy. **Inspect the script first** and only run it when downloaded from \`remote.exza.de\`; follow your organization's security rules. Windows native end-to-end testing is currently more limited than macOS.
+
+### Linux — Terminal
+
+Install Node.js 22+ and npm, verify them, and run the official Unix installer:
+
+\`\`\`sh
+node --version
+npm --version
+curl -fsSL https://remote.exza.de/install.sh -o exza-install.sh && sh exza-install.sh
+\`\`\`
+
+Linux distribution and desktop-tool compatibility may vary. See [Platforms](docs/PLATFORMS.md).
+
+**How installation works:** The scripts download the official client ZIP over HTTPS, verify its SHA-256 checksum, install runtime dependencies and start the client in a **visible foreground terminal**. Keep that terminal open while using EXZA Remote. Review the public [macOS/Linux installer](https://remote.exza.de/install.sh) or [Windows installer](https://remote.exza.de/install.ps1) before running it.
+
+### Pair your device and connect an AI assistant
+
+1. Register or sign in to [EXZA Remote — My Devices](https://remote.exza.de/app/) and verify your email if requested.
+2. Wait for the **server-confirmed six-digit PIN** in your running terminal. Enter it on the website within five minutes.
+3. Check the requesting account and **press Y in the terminal to approve** or **N to deny** the pairing.
+4. In a compatible ChatGPT, Claude or other AI client, add a custom remote MCP connection:
+   - **Name:** EXZA Remote
+   - **Server URL:** \`https://remote.exza.de/mcp\`
+   - **Sign-in:** EXZA OAuth account; review device selection and requested permissions.
+5. Try a read-only prompt: *“Check whether my EXZA Remote computer is online. Do not change anything.”*
+
+Custom MCP connector availability depends on the AI service, plan and account/workspace settings.
+
+### Useful commands and troubleshooting
+
+| Command inside the **running EXZA terminal** | Meaning |
+| --- | --- |
+| \`status\` | Inspect the current connection and pairing state. |
+| \`new code\` | Request a fresh PIN when not yet paired and the previous code has expired. |
+| \`reset pairing\` then \`confirm reset pairing\` | If the former local pairing has been revoked or is unusable, confirm the local reset within 30 seconds. A new pairing still requires Y approval. |
+
+**Do not start a second agent** while the first terminal is connected. Removing a device in the website and resetting its local pairing are different actions. Closing the terminal ends its active connection. Never share PINs, passwords, tokens or private logs in public discussions.
+
+[Full getting-started guide](docs/GETTING_STARTED.md) · [ChatGPT/Claude setup](docs/AI_MCP_GUIDE.md) · [Help Center](https://remote.exza.de/help)
 
 ## Built for real workflows
 
