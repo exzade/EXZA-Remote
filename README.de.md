@@ -4,7 +4,7 @@
 
 **Verbinde ChatGPT, Claude und kompatible KI-Assistenten sicherer mit deinem eigenen Computer – mit Geräte-Kopplung, Benutzerkonto und Freigaben für sensible Aktionen.**
 
-[**Offizielle Website**](https://remote.exza.de/) · [**Kundenportal**](https://remote.exza.de/app/) · [**Hilfe auf Deutsch**](https://remote.exza.de/hilfe) · [**English README**](README.md)
+[**Offizielle Website**](https://remote.exza.de/) · [**Kundenportal**](https://remote.exza.de/app/) · [**Terminal-Installation**](#exza-remote-installieren--terminal-befehle) · [**Hilfe auf Deutsch**](https://remote.exza.de/hilfe) · [**English README**](README.md)
 
 ## Was ist EXZA Remote?
 
@@ -34,6 +34,79 @@ Aktuell sind **59 MCP-Werkzeug-Schnittstellen registriert**. Die Zahl ist keine 
 6. Mit einer ungefährlichen Statusabfrage beginnen.
 
 Weitere Informationen: [Hilfe](https://remote.exza.de/hilfe) · [Plattformen](docs/PLATFORMS.md) · [Sicherheitsmodell](docs/SECURITY_MODEL.md) · [FAQ](docs/FAQ.md)
+
+## EXZA Remote installieren – Terminal-Befehle
+
+Du musst **dieses GitHub-Repository nicht klonen**. Es enthält öffentliche Produktinformationen, **keinen privaten Quellcode**. Installiere den Client über die [offizielle EXZA-Webseite](https://remote.exza.de/) auf deinem eigenen oder ausdrücklich autorisierten Computer.
+
+**Voraussetzungen:** [Node.js 22+](https://nodejs.org/) mit npm, Internetverbindung und ein EXZA-Konto. Auf macOS/Linux zusätzlich curl, unzip und ein SHA-256-Prüfprogramm. **Keine Administrator- oder Root-Rechte erforderlich.**
+
+### macOS – Terminal
+
+Öffne Terminal und prüfe Node.js und npm:
+
+\`\`\`sh
+node --version
+npm --version
+\`\`\`
+
+Danach den **offiziellen Installationsbefehl aus dem EXZA-Kundenportal** ausführen:
+
+\`\`\`sh
+curl -fsSL https://remote.exza.de/install.sh -o exza-install.sh && sh exza-install.sh
+\`\`\`
+
+### Windows 10/11 – PowerShell
+
+Öffne PowerShell als **normaler Benutzer** und führe Folgendes aus:
+
+\`\`\`powershell
+node --version
+npm --version
+curl.exe -fsSL https://remote.exza.de/install.ps1 -o exza-install.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File .\exza-install.ps1
+\`\`\`
+
+\`-ExecutionPolicy Bypass\` gilt nur für diesen PowerShell-Prozess und ändert die dauerhafte Systemrichtlinie nicht. **Prüfe das Skript vor dem Start** und verwende nur die Domain \`remote.exza.de\`. Beachte gegebenenfalls die Sicherheitsregeln deiner Organisation. Windows ist als Installationsweg verfügbar, wurde jedoch noch nicht so umfassend nativ getestet wie macOS.
+
+### Linux – Terminal
+
+Installiere Node.js 22+ mit npm und nutze den offiziellen Unix-Installer:
+
+\`\`\`sh
+node --version
+npm --version
+curl -fsSL https://remote.exza.de/install.sh -o exza-install.sh && sh exza-install.sh
+\`\`\`
+
+Je nach Linux-Distribution können Funktionen abweichen. Siehe [Plattformen](docs/PLATFORMS.md).
+
+**Was passiert dabei?** Der Installer lädt das offizielle Client-ZIP über HTTPS herunter, prüft dessen SHA-256-Prüfsumme, installiert die Laufzeitabhängigkeiten und startet EXZA Remote **im sichtbaren Terminal**. Lass dieses Fenster während der Verbindung geöffnet. Du kannst die öffentlichen Skripte vorher prüfen: [macOS/Linux](https://remote.exza.de/install.sh) · [Windows](https://remote.exza.de/install.ps1).
+
+### Computer koppeln und ChatGPT oder Claude verbinden
+
+1. Melde dich im [EXZA-Kundenportal → Meine Geräte](https://remote.exza.de/app/) an und bestätige gegebenenfalls deine E-Mail.
+2. Warte auf die **serverbestätigte sechsstellige PIN** im laufenden Terminal und trage sie innerhalb von fünf Minuten auf der Webseite ein.
+3. Prüfe das anfragende Konto. Bestätige die Kopplung **im Terminal mit Y** oder lehne sie mit **N** ab.
+4. Füge in einem kompatiblen KI-Assistenten einen benutzerdefinierten Remote-MCP-Server hinzu:
+   - **Name:** EXZA Remote
+   - **Server-URL:** \`https://remote.exza.de/mcp\`
+   - **Anmeldung:** EXZA-Konto über OAuth; Gerät und Berechtigungen prüfen.
+5. Teste ohne Änderungen: *„Prüfe, ob mein EXZA-Remote-Computer online ist. Verändere nichts.“*
+
+Ob benutzerdefinierte MCP-Verbindungen verfügbar sind, hängt vom KI-Anbieter, Tarif und den Kontoeinstellungen ab.
+
+### Terminal-Befehle und Hilfe
+
+| Befehl **im laufenden EXZA-Terminal** | Bedeutung |
+| --- | --- |
+| \`status\` | Verbindungs- und Kopplungsstatus anzeigen. |
+| \`new code\` | Bei noch nicht gekoppeltem Gerät eine neue PIN anfordern, z. B. nach Ablauf der alten PIN. |
+| \`reset pairing\`, danach \`confirm reset pairing\` | Eine widerrufene oder unbrauchbare lokale Kopplung innerhalb von 30 Sekunden ausdrücklich zurücksetzen. Für die neue Kopplung ist erneut eine Y-Freigabe nötig. |
+
+**Keinen zweiten Agenten starten**, wenn das erste Terminal bereits verbunden ist. Gerät auf der Webseite entfernen und lokale Kopplung zurücksetzen sind getrennte Vorgänge. Beim Schließen des Terminals endet die aktive Verbindung. Teile niemals PINs, Passwörter, Tokens oder private Protokolle öffentlich.
+
+[Vollständige Anleitung](docs/GETTING_STARTED.md) · [ChatGPT/Claude verbinden](docs/AI_MCP_GUIDE.md) · [Deutsche Hilfe](https://remote.exza.de/hilfe)
 
 ## Kostenloser Tarif und Premium
 
