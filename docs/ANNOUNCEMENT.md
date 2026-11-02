@@ -1,6 +1,10 @@
-# EXZA Remote — public introduction
+# EXZA Remote — AI Computer Commander
+
+*Your computer. Your control. With ChatGPT and Claude.*
 
 **Published: November 2026**
+
+**AI Computer Commander** is the product tagline for EXZA Remote, a remote MCP connection platform.
 
 **EXZA Remote is a remote MCP connection platform for people who want ChatGPT, Claude, or another compatible AI assistant to work with their own computer while retaining explicit control over permissions.**
 
