@@ -110,6 +110,7 @@ EXZA Remote offers a **free tier with 10,000 successful tool calls per EXZA acco
 
 | Guide | Contents |
 | --- | --- |
+| [Connect ChatGPT or Claude via MCP](docs/AI_MCP_GUIDE.md) | Practical AI remote-computer setup and safe first workflows |
 | [Getting started](docs/GETTING_STARTED.md) | First connection and onboarding |
 | [Features](docs/FEATURES.md) | What EXZA Remote can do |
 | [Tool catalog](docs/TOOLS.md) | All 59 registered MCP tool interfaces |
@@ -118,6 +119,7 @@ EXZA Remote offers a **free tier with 10,000 successful tool calls per EXZA acco
 | [Security model](docs/SECURITY_MODEL.md) | Access, approvals, and responsibilities |
 | [FAQ](docs/FAQ.md) | Common questions and troubleshooting |
 | [Press & product information](docs/PRESS_KIT.md) | Short description and launch assets |
+| [Product announcement](docs/ANNOUNCEMENT.md) | Public introduction and useful feedback channels |
 | [Deutsche Übersicht](README.de.md) | Produktbeschreibung auf Deutsch |
 
 **Support:** [Official Help Center](https://remote.exza.de/help) · [German Help Center](https://remote.exza.de/hilfe) · [Contact](mailto:info@exza.de)
