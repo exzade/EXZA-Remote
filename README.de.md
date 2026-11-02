@@ -45,39 +45,39 @@ Du musst **dieses GitHub-Repository nicht klonen**. Es enthält öffentliche Pro
 
 Öffne Terminal und prüfe Node.js und npm:
 
-\`\`\`sh
+```sh
 node --version
 npm --version
-\`\`\`
+```
 
 Danach den **offiziellen Installationsbefehl aus dem EXZA-Kundenportal** ausführen:
 
-\`\`\`sh
+```sh
 curl -fsSL https://remote.exza.de/install.sh -o exza-install.sh && sh exza-install.sh
-\`\`\`
+```
 
 ### Windows 10/11 – PowerShell
 
 Öffne PowerShell als **normaler Benutzer** und führe Folgendes aus:
 
-\`\`\`powershell
+```powershell
 node --version
 npm --version
 curl.exe -fsSL https://remote.exza.de/install.ps1 -o exza-install.ps1
 powershell -NoProfile -ExecutionPolicy Bypass -File .\exza-install.ps1
-\`\`\`
+```
 
-\`-ExecutionPolicy Bypass\` gilt nur für diesen PowerShell-Prozess und ändert die dauerhafte Systemrichtlinie nicht. **Prüfe das Skript vor dem Start** und verwende nur die Domain \`remote.exza.de\`. Beachte gegebenenfalls die Sicherheitsregeln deiner Organisation. Windows ist als Installationsweg verfügbar, wurde jedoch noch nicht so umfassend nativ getestet wie macOS.
+`-ExecutionPolicy Bypass` gilt nur für diesen PowerShell-Prozess und ändert die dauerhafte Systemrichtlinie nicht. **Prüfe das Skript vor dem Start** und verwende nur die Domain `remote.exza.de`. Beachte gegebenenfalls die Sicherheitsregeln deiner Organisation. Windows ist als Installationsweg verfügbar, wurde jedoch noch nicht so umfassend nativ getestet wie macOS.
 
 ### Linux – Terminal
 
 Installiere Node.js 22+ mit npm und nutze den offiziellen Unix-Installer:
 
-\`\`\`sh
+```sh
 node --version
 npm --version
 curl -fsSL https://remote.exza.de/install.sh -o exza-install.sh && sh exza-install.sh
-\`\`\`
+```
 
 Je nach Linux-Distribution können Funktionen abweichen. Siehe [Plattformen](docs/PLATFORMS.md).
 
@@ -90,7 +90,7 @@ Je nach Linux-Distribution können Funktionen abweichen. Siehe [Plattformen](doc
 3. Prüfe das anfragende Konto. Bestätige die Kopplung **im Terminal mit Y** oder lehne sie mit **N** ab.
 4. Füge in einem kompatiblen KI-Assistenten einen benutzerdefinierten Remote-MCP-Server hinzu:
    - **Name:** EXZA Remote
-   - **Server-URL:** \`https://remote.exza.de/mcp\`
+   - **Server-URL:** `https://remote.exza.de/mcp`
    - **Anmeldung:** EXZA-Konto über OAuth; Gerät und Berechtigungen prüfen.
 5. Teste ohne Änderungen: *„Prüfe, ob mein EXZA-Remote-Computer online ist. Verändere nichts.“*
 
@@ -100,9 +100,9 @@ Ob benutzerdefinierte MCP-Verbindungen verfügbar sind, hängt vom KI-Anbieter, 
 
 | Befehl **im laufenden EXZA-Terminal** | Bedeutung |
 | --- | --- |
-| \`status\` | Verbindungs- und Kopplungsstatus anzeigen. |
-| \`new code\` | Bei noch nicht gekoppeltem Gerät eine neue PIN anfordern, z. B. nach Ablauf der alten PIN. |
-| \`reset pairing\`, danach \`confirm reset pairing\` | Eine widerrufene oder unbrauchbare lokale Kopplung innerhalb von 30 Sekunden ausdrücklich zurücksetzen. Für die neue Kopplung ist erneut eine Y-Freigabe nötig. |
+| `status` | Verbindungs- und Kopplungsstatus anzeigen. |
+| `new code` | Bei noch nicht gekoppeltem Gerät eine neue PIN anfordern, z. B. nach Ablauf der alten PIN. |
+| `reset pairing`, danach `confirm reset pairing` | Eine widerrufene oder unbrauchbare lokale Kopplung innerhalb von 30 Sekunden ausdrücklich zurücksetzen. Für die neue Kopplung ist erneut eine Y-Freigabe nötig. |
 
 **Keinen zweiten Agenten starten**, wenn das erste Terminal bereits verbunden ist. Gerät auf der Webseite entfernen und lokale Kopplung zurücksetzen sind getrennte Vorgänge. Beim Schließen des Terminals endet die aktive Verbindung. Teile niemals PINs, Passwörter, Tokens oder private Protokolle öffentlich.
 
