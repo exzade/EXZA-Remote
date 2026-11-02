@@ -18,6 +18,33 @@ EXZA Remote is an account-based service. The fastest and safest setup path is th
 
 See the current [macOS, Windows, and Linux help](https://remote.exza.de/help) for prerequisites and supported installation steps.
 
+## Copy-and-paste installation commands
+
+This GitHub repository is for EXZA Remote's **public product documentation**, not private client/source distribution. Run the official installer on your own or an authorized computer, not on a phone.
+
+**Prerequisites:** [Node.js 22+](https://nodejs.org/) with npm, internet access, and an EXZA account. macOS/Linux also need curl, unzip and a SHA-256 verification utility.
+
+### macOS / Linux — Terminal
+
+\`\`\`sh
+node --version
+npm --version
+curl -fsSL https://remote.exza.de/install.sh -o exza-install.sh && sh exza-install.sh
+\`\`\`
+
+### Windows 10/11 — PowerShell (standard user)
+
+\`\`\`powershell
+node --version
+npm --version
+curl.exe -fsSL https://remote.exza.de/install.ps1 -o exza-install.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File .\exza-install.ps1
+\`\`\`
+
+The PowerShell execution-policy option applies to this process only. Review the script before running and follow organizational security policies. Windows/Linux tool and end-to-end testing differ from macOS; see [Platforms](PLATFORMS.md).
+
+The installers download the official package from EXZA's HTTPS domain and verify its SHA-256 checksum before running the client. **Keep its terminal open** while connected. Inspect the published [Unix](https://remote.exza.de/install.sh) or [Windows](https://remote.exza.de/install.ps1) script first. No GitHub clone or administrator/root installation is required.
+
 ## 3. Pair your computer
 
 1. Start the local EXZA Remote client.
