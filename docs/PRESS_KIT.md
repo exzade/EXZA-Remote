@@ -1,10 +1,12 @@
-# EXZA Remote — Public product information
+# EXZA Remote — AI Computer Commander · Public product information
 
 This page provides concise, reusable descriptions of EXZA Remote for product directories, videos, newsletters, and developer-community introductions.
 
 ## Product
 
 - **Name:** EXZA Remote
+- **Tagline:** AI Computer Commander
+- **Supporting line:** Your computer. Your control. With ChatGPT and Claude.
 - **Developer/brand:** EXZA – Technologies
 - **Website:** https://remote.exza.de/
 - **Customer portal:** https://remote.exza.de/app/
@@ -15,7 +17,7 @@ This page provides concise, reusable descriptions of EXZA Remote for product dir
 
 ## One-line description
 
-**EXZA Remote connects ChatGPT, Claude, and compatible AI assistants to your computer with device pairing and user-controlled permissions.**
+**EXZA Remote — AI Computer Commander — connects ChatGPT, Claude, and compatible AI assistants to your computer with device pairing and user-controlled permissions.**
 
 ## Short description
 
