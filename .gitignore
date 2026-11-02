@@ -1,0 +1,22 @@
+# This repository must remain documentation-only. Do not add private EXZA project archives.
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+*.db
+*.sqlite*
+*.zip
+*.tar
+*.tar.gz
+*.log
+*secret*
+*token*
+*credentials*
+node_modules/
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
