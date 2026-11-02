@@ -26,20 +26,20 @@ This GitHub repository is for EXZA Remote's **public product documentation**, no
 
 ### macOS / Linux — Terminal
 
-\`\`\`sh
+```sh
 node --version
 npm --version
 curl -fsSL https://remote.exza.de/install.sh -o exza-install.sh && sh exza-install.sh
-\`\`\`
+```
 
 ### Windows 10/11 — PowerShell (standard user)
 
-\`\`\`powershell
+```powershell
 node --version
 npm --version
 curl.exe -fsSL https://remote.exza.de/install.ps1 -o exza-install.ps1
 powershell -NoProfile -ExecutionPolicy Bypass -File .\exza-install.ps1
-\`\`\`
+```
 
 The PowerShell execution-policy option applies to this process only. Review the script before running and follow organizational security policies. Windows/Linux tool and end-to-end testing differ from macOS; see [Platforms](PLATFORMS.md).
 
