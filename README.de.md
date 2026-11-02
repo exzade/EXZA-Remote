@@ -41,6 +41,37 @@ Du musst **dieses GitHub-Repository nicht klonen**. Es enthält öffentliche Pro
 
 **Voraussetzungen:** [Node.js 22+](https://nodejs.org/) mit npm, Internetverbindung und ein EXZA-Konto. Auf macOS/Linux zusätzlich curl, unzip und ein SHA-256-Prüfprogramm. **Keine Administrator- oder Root-Rechte erforderlich.**
 
+### Wenn Node.js fehlt oder zu alt ist
+
+EXZA Remote benötigt **Node.js 22 oder neuer** inklusive **npm**. Du kannst Node.js **kostenlos** auf der offiziellen [Node.js-Downloadseite](https://nodejs.org/en/download) herunterladen. Wähle eine gepflegte **LTS-Version**, die zu deinem Betriebssystem passt. Du musst dafür weder GitHub klonen noch EXZA-Zugangsdaten weitergeben.
+
+**Zuerst die vorhandenen Versionen prüfen** (macOS/Linux im Terminal oder Windows in PowerShell):
+
+```sh
+node --version
+npm --version
+```
+
+- **macOS:** Öffne [nodejs.org/en/download](https://nodejs.org/en/download), wähle den offiziellen macOS-Installer (`.pkg`) für dein unterstütztes System, lade ihn herunter und folge der Installation. Danach Terminal schließen und neu öffnen.
+- **Windows 10/11:** Wähle auf der offiziellen Webseite den Windows-Installer (`.msi`) für deine Gerätearchitektur. Bei der Installation soll npm mitinstalliert werden. Danach PowerShell schließen und neu öffnen. Für die Node.js-Installation kann eine Administratorfreigabe nötig sein; EXZA Remote selbst wird als normaler Benutzer gestartet.
+- **Linux:** Verwende die Linux-Anleitung auf der [offiziellen Node.js-Seite](https://nodejs.org/en/download). Falls der Versionsmanager `nvm` **bereits installiert** ist, kannst du damit eine aktuelle LTS-Version für deinen Benutzer installieren. Fehlt `nvm`, nutze zuerst die offiziellen Hinweise für deine Distribution beziehungsweise einen vertrauenswürdigen Versionsmanager – **keine unbekannten `curl | bash`-Befehle ausführen**.
+
+```sh
+nvm install --lts
+nvm use --lts
+```
+
+**Nach dem erneuten Öffnen des Terminals prüfen:**
+
+```sh
+node --version
+npm --version
+```
+
+Bei `command not found`, `nicht erkannt` oder `v20` und älter überprüfe die Installation und die `PATH`-Umgebungsvariable und öffne das Terminal erneut. Wird bereits **v22 oder neuer** und eine npm-Version angezeigt, **überspringe die Node.js-Installation** und fahre unten mit dem EXZA-Remote-Befehl fort.
+
+**Wichtig:** Eine bereits laufende EXZA-Remote-Verbindung nicht extra für die Node.js-Installation beenden oder neu starten. Änderungen erst nach dem regulären Sitzungsende durchführen.
+
 ### macOS – Terminal
 
 Öffne Terminal und prüfe Node.js und npm:
