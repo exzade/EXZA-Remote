@@ -1,12 +1,16 @@
 <div align="center">
 
-<img src="assets/exza-remote-banner.svg" alt="EXZA Remote — Your computer. Your control. With ChatGPT and Claude." width="100%" />
+<img src="assets/exza-remote-banner.svg" alt="EXZA Remote — AI Computer Commander. Your computer. Your control." width="100%" />
 
 <img src="https://remote.exza.de/assets/logo-128.webp" alt="EXZA Remote official logo" width="72" height="72" />
 
 # EXZA Remote
 
-### Your computer. Your control. With ChatGPT and Claude.
+### AI Computer Commander
+
+Your computer. Your control. With ChatGPT and Claude.
+
+**EXZA Remote — AI Computer Commander.**
 
 **An MCP server for AI-powered remote computer access: connect ChatGPT, Claude, and other compatible AI assistants to your own Mac, Windows, or Linux computer with secure device pairing and owner-controlled permissions.**
 
