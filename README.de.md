@@ -1,10 +1,14 @@
-# EXZA Remote — Dein Computer. Deine Kontrolle.
+# EXZA Remote — AI Computer Commander
+
+**Dein Computer. Deine Kontrolle. Mit ChatGPT und Claude.**
 
 **Verbinde ChatGPT, Claude und kompatible KI-Assistenten sicherer mit deinem eigenen Computer – mit Geräte-Kopplung, Benutzerkonto und Freigaben für sensible Aktionen.**
 
 [**Offizielle Website**](https://remote.exza.de/) · [**Kundenportal**](https://remote.exza.de/app/) · [**Hilfe auf Deutsch**](https://remote.exza.de/hilfe) · [**English README**](README.md)
 
 ## Was ist EXZA Remote?
+
+**AI Computer Commander** ist der Zusatzname für EXZA Remote – unsere Plattform für kontrollierte KI-Unterstützung direkt auf deinem eigenen Computer.
 
 EXZA Remote ist eine Plattform für die Verbindung von KI-Assistenten mit einem eigenen Computer über das **Model Context Protocol (MCP)**. Unterstützte Aktionen können beispielsweise Dateiinformationen, System- und Prozessabfragen oder freigegebene Terminal-Aufgaben umfassen. Welche Funktionen tatsächlich verfügbar sind, hängt vom Betriebssystem, der gekoppelten Sitzung und den erteilten Berechtigungen ab.
 
