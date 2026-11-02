@@ -24,6 +24,37 @@ This GitHub repository is for EXZA Remote's **public product documentation**, no
 
 **Prerequisites:** [Node.js 22+](https://nodejs.org/) with npm, internet access, and an EXZA account. macOS/Linux also need curl, unzip and a SHA-256 verification utility.
 
+### If Node.js is missing or outdated
+
+EXZA Remote needs **Node.js 22 or newer**, including **npm**. You can install it **free of charge** from the official [Node.js download page](https://nodejs.org/en/download). Choose a maintained **LTS** release compatible with your operating system. You do **not** need to download Node.js from GitHub or share your EXZA login details.
+
+**Check the versions first** (macOS/Linux Terminal or Windows PowerShell):
+
+```sh
+node --version
+npm --version
+```
+
+- **macOS:** Open [nodejs.org/en/download](https://nodejs.org/en/download), choose the macOS installer for your supported system, download the official `.pkg`, run the installer and follow its prompts. Close and reopen Terminal afterwards.
+- **Windows 10/11:** On the same official page choose the Windows installer (`.msi`) for your architecture, run it and keep the default npm installation enabled. Close and reopen PowerShell after installing. Administrator approval might be requested by the Node.js installer, but EXZA Remote itself should run as your normal user.
+- **Linux:** Follow the Linux instructions on the [official Node.js download page](https://nodejs.org/en/download). If the `nvm` version manager is **already installed**, you can run the following to install a maintained LTS release for your user account. If `nvm` is not installed, follow the official installation instructions for your distribution and a trusted version manager first; **do not copy an unknown `curl | bash` command**.
+
+```sh
+nvm install --lts
+nvm use --lts
+```
+
+**Verify again** after reopening your terminal:
+
+```sh
+node --version
+npm --version
+```
+
+If the commands still say `command not found`, `not recognized`, or the version begins with `v20` or lower, verify that Node.js is installed and on your shell's `PATH`, then reopen the terminal. If Node.js already reports `v22` or newer and npm reports a version, **skip this installation step** and continue with the EXZA Remote command below.
+
+**Do not overwrite or restart a running EXZA Remote connection just to install Node.js.** Finish the current session safely before changing runtimes.
+
 ### macOS / Linux — Terminal
 
 ```sh
