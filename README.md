@@ -95,39 +95,39 @@ You **do not need to clone this GitHub repository**. It is a public product pres
 
 Open Terminal and verify that Node.js and npm are installed:
 
-\`\`\`sh
+```sh
 node --version
 npm --version
-\`\`\`
+```
 
 Then run the **same official command shown in the EXZA customer portal**:
 
-\`\`\`sh
+```sh
 curl -fsSL https://remote.exza.de/install.sh -o exza-install.sh && sh exza-install.sh
-\`\`\`
+```
 
 ### Windows 10/11 — PowerShell
 
 Open PowerShell as a **normal user**, check the prerequisites, download the official script and run it:
 
-\`\`\`powershell
+```powershell
 node --version
 npm --version
 curl.exe -fsSL https://remote.exza.de/install.ps1 -o exza-install.ps1
 powershell -NoProfile -ExecutionPolicy Bypass -File .\exza-install.ps1
-\`\`\`
+```
 
-The \`-ExecutionPolicy Bypass\` option applies only to that PowerShell process, not to the permanent system policy. **Inspect the script first** and only run it when downloaded from \`remote.exza.de\`; follow your organization's security rules. Windows native end-to-end testing is currently more limited than macOS.
+The `-ExecutionPolicy Bypass` option applies only to that PowerShell process, not to the permanent system policy. **Inspect the script first** and only run it when downloaded from `remote.exza.de`; follow your organization's security rules. Windows native end-to-end testing is currently more limited than macOS.
 
 ### Linux — Terminal
 
 Install Node.js 22+ and npm, verify them, and run the official Unix installer:
 
-\`\`\`sh
+```sh
 node --version
 npm --version
 curl -fsSL https://remote.exza.de/install.sh -o exza-install.sh && sh exza-install.sh
-\`\`\`
+```
 
 Linux distribution and desktop-tool compatibility may vary. See [Platforms](docs/PLATFORMS.md).
 
@@ -140,7 +140,7 @@ Linux distribution and desktop-tool compatibility may vary. See [Platforms](docs
 3. Check the requesting account and **press Y in the terminal to approve** or **N to deny** the pairing.
 4. In a compatible ChatGPT, Claude or other AI client, add a custom remote MCP connection:
    - **Name:** EXZA Remote
-   - **Server URL:** \`https://remote.exza.de/mcp\`
+   - **Server URL:** `https://remote.exza.de/mcp`
    - **Sign-in:** EXZA OAuth account; review device selection and requested permissions.
 5. Try a read-only prompt: *“Check whether my EXZA Remote computer is online. Do not change anything.”*
 
@@ -150,9 +150,9 @@ Custom MCP connector availability depends on the AI service, plan and account/wo
 
 | Command inside the **running EXZA terminal** | Meaning |
 | --- | --- |
-| \`status\` | Inspect the current connection and pairing state. |
-| \`new code\` | Request a fresh PIN when not yet paired and the previous code has expired. |
-| \`reset pairing\` then \`confirm reset pairing\` | If the former local pairing has been revoked or is unusable, confirm the local reset within 30 seconds. A new pairing still requires Y approval. |
+| `status` | Inspect the current connection and pairing state. |
+| `new code` | Request a fresh PIN when not yet paired and the previous code has expired. |
+| `reset pairing` then `confirm reset pairing` | If the former local pairing has been revoked or is unusable, confirm the local reset within 30 seconds. A new pairing still requires Y approval. |
 
 **Do not start a second agent** while the first terminal is connected. Removing a device in the website and resetting its local pairing are different actions. Closing the terminal ends its active connection. Never share PINs, passwords, tokens or private logs in public discussions.
 
