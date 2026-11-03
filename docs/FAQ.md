@@ -8,6 +8,10 @@ A service that connects a computer you control to compatible AI assistants over 
 
 No. It is a separate product that provides a controlled computer connection to AI clients that support the required MCP functionality.
 
+### Can I use EXZA Remote directly in ChatGPT Web, without installing Codex?
+
+Yes, **where your ChatGPT web account or workspace supports custom MCP plugins and the necessary actions**. Pair your computer through [EXZA Remote](https://remote.exza.de/app/), then in ChatGPT Web open **Plugins → Add custom MCP server**, enter **`https://remote.exza.de/mcp`**, authorize EXZA OAuth, and select the connection in a supported conversation. No separate Codex installation is required for this route. Read-only or write/computer action availability is controlled by OpenAI's plan and workspace policies; listing in the public plugin directory is separate. See the [ChatGPT Web walkthrough](AI_MCP_GUIDE.md).
+
 ### Which AI clients can I use?
 
 ChatGPT, Claude, and potentially other compatible MCP clients. Availability depends on the third-party client's configuration, plan, workspace policies, and authorization support.
