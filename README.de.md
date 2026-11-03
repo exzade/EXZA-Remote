@@ -6,6 +6,14 @@
 
 [**Offizielle Website**](https://remote.exza.de/) · [**Kundenportal**](https://remote.exza.de/app/) · [**Terminal-Installation**](#exza-remote-installieren--terminal-befehle) · [**Hilfe auf Deutsch**](https://remote.exza.de/hilfe) · [**English README**](README.md)
 
+## EXZA Remote direkt im ChatGPT-Web-Chat nutzen – nicht nur mit Codex
+
+**Du brauchst Codex nicht zu installieren, um EXZA Remote in unterstützten ChatGPT-Web-Chats zu verwenden.** Verbinde den EXZA-MCP-Server in ChatGPT über Plugins (sofern dein Konto/Workspace benutzerdefinierte MCP-Verbindungen unterstützt), kopple deinen eigenen Computer und lasse ChatGPT direkt im Gespräch erlaubte Dateien prüfen, Prozesse abfragen oder ausdrücklich freigegebene Terminalbefehle ausführen. Auch ChatGPT Work, Codex und Claude können – je nach verfügbarer MCP-Unterstützung – passende Einsatzmöglichkeiten bieten.
+
+**So geht's:** [EXZA-Konto kostenlos erstellen](https://remote.exza.de/app/?register=1) → Mac, Windows- oder Linux-PC koppeln → in **ChatGPT Web → Plugins → Benutzerdefinierten MCP-Server hinzufügen** den Endpunkt **`https://remote.exza.de/mcp`** eintragen → über EXZA OAuth anmelden → EXZA Remote im Chat auswählen. [Anleitung für ChatGPT und Claude](docs/AI_MCP_GUIDE.md).
+
+*Die verfügbaren ChatGPT-Funktionen und insbesondere Schreib- und Computeraktionen hängen vom Tarif und den Workspace-Rechten ab. Die öffentliche Verzeichnisfreigabe ist unabhängig von einer manuell eingerichteten Verbindung. EXZA Remote ist kein offizielles OpenAI- oder Anthropic-Produkt.*
+
 ## Was ist EXZA Remote?
 
 **AI Computer Commander** ist der Zusatzname für EXZA Remote – unsere Plattform für kontrollierte KI-Unterstützung direkt auf deinem eigenen Computer.
