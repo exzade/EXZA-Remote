@@ -2,6 +2,12 @@
 
 EXZA Remote is an account-based service. The fastest and safest setup path is through the official [website](https://remote.exza.de/) and [customer portal](https://remote.exza.de/app/).
 
+## Official installation only — important third-party listing correction
+
+Some automatically generated directories show an unsupported command such as `claude mcp add exza-remote -- npx exza-remote`. **This command is not supplied, supported or endorsed by EXZA Remote. Do not run it as an EXZA installation method.** EXZA Remote is an authenticated, proprietary remote MCP service, not a published npm package or an open-source distribution of its private agent/server.
+
+The correct method is to create your account at [remote.exza.de](https://remote.exza.de/app/?register=1), follow its official OS-specific client installation and device-pairing instructions, and connect to the remote MCP endpoint **`https://remote.exza.de/mcp`** using OAuth. The `SECURITY.md` policy is public: [Report vulnerabilities](../SECURITY.md). For licensing details see [NOTICE.md](../NOTICE.md).
+
 ## 1. Set up your EXZA account
 
 - Register or sign in through the official website.
