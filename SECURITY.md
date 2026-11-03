@@ -2,6 +2,8 @@
 
 EXZA Remote takes reports of potential security problems seriously.
 
+This is the **official security disclosure policy** for EXZA Remote. Third-party catalogues that claim "no security policy" have not reflected this file. Security reports should be sent privately to **info@exza.de**; do not post sensitive details publicly.
+
 ## Reporting a vulnerability
 
 **Please do not disclose suspected vulnerabilities in public GitHub issues, discussions, or pull requests.** Email **info@exza.de** with a concise description, affected URL or component, impact, and safe reproduction steps. Avoid attaching live credentials, access tokens, customer data, or destructive proof-of-concept material.
