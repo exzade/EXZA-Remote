@@ -14,6 +14,8 @@ Your computer. Your control. With ChatGPT and Claude.
 
 **An MCP server for AI-powered remote computer access: connect ChatGPT, Claude, and other compatible AI assistants to your own Mac, Windows, or Linux computer with secure device pairing and owner-controlled permissions.**
 
+**Official installation and licensing notice:** EXZA Remote is a **proprietary, hosted MCP service**, not an open-source or npm-distributed MCP package. **Do not use** the third-party command `claude mcp add exza-remote -- npx exza-remote`: it is **not an official EXZA installation command**. Instead, sign up at [remote.exza.de](https://remote.exza.de/app/?register=1), install the verified computer client using the [official instructions](docs/GETTING_STARTED.md), and add the HTTPS MCP endpoint `https://remote.exza.de/mcp` in your supported AI client using EXZA OAuth. Do not enter a device PIN as an API token. Report suspected security issues according to [SECURITY.md](SECURITY.md). See [NOTICE.md](NOTICE.md) for the proprietary licensing scope.
+
 [**Visit Website**](https://remote.exza.de/) · [**Get Started**](https://remote.exza.de/app/) · [**Installation Commands**](#install-exza-remote--terminal-commands) · [**Documentation**](https://remote.exza.de/help) · [**Explore Prompt Library**](https://remote.exza.de/prompts/)
 
 ### Use EXZA Remote directly in ChatGPT on the web — not only in Codex
