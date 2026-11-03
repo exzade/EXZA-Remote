@@ -12,6 +12,17 @@ An AI assistant can help explain code, review diagnostics, and plan workflows. B
 
 It is **not** an invitation to give AI unrestricted access to your computer.
 
+## ChatGPT Web: use EXZA Remote in the conversation, without Codex
+
+EXZA Remote is **not limited to Codex, terminal coding tools, or a separate desktop AI app**. When your ChatGPT web account/workspace supports custom MCP plugins, you can connect this service and request approved computer actions in a supported ChatGPT conversation.
+
+1. Open [EXZA Remote](https://remote.exza.de/app/) and register or sign in. Install the official client and pair your computer using the local six-digit code and owner approval.
+2. Open **ChatGPT on the web → Plugins → + → Add custom MCP server** (if available). Set name to **EXZA Remote** and the HTTPS endpoint to **`https://remote.exza.de/mcp`**.
+3. Complete EXZA OAuth and review the requested device and permissions. Choose EXZA Remote in the supported ChatGPT chat or Work experience.
+4. Try: **“Using EXZA Remote, check whether my authorized computer is connected. Read only; do not change any files.”**
+
+**You do not need Codex for the ChatGPT Web workflow.** You can also connect EXZA Remote separately in Codex, Claude and other compatible MCP clients. Custom-plugin availability and especially write/modify actions vary by plan, workspace policy and client. Public plugin-directory publication is a separate approval process; manual connection does not imply that listing. Do not enter your device PIN or secret tokens into a chat message.
+
 ## Get connected
 
 1. Visit [remote.exza.de](https://remote.exza.de/) and sign in or create an account.
