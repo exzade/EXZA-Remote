@@ -1,14 +1,17 @@
 # EXZA Remote — AI Computer Commander
 
+**NEU — EXZA Remote jetzt bei Glama entdecken und verbinden.** [![Glama MCP Connector](https://remote.exza.de/assets/third-party/glama-mark.webp)](https://glama.ai/mcp/connectors/de.exza.remote/exza-remote)  
+**[Verifizierter Glama-Connector](https://glama.ai/mcp/connectors/de.exza.remote/exza-remote)** · [**Glama verbinden – vollständige Anleitung**](docs/GLAMA_INTEGRATION.md) · [**Datenschutz & Freigaben**](https://remote.exza.de/legal/datenschutz)
+
 [![mcptry — Live MCP server status](https://mcptry.com/badge/io.github.exzade/exza-remote)](https://mcptry.com/servers/io.github.exzade/exza-remote)
 
-**Dein Computer. Deine Kontrolle. Mit ChatGPT und Claude.**
+**Dein Computer. Deine Kontrolle. Mit ChatGPT und Claude – jetzt auch über das Glama-MCP-Verzeichnis entdecken und prüfen.**
 
 **Verbinde ChatGPT, Claude und kompatible KI-Assistenten sicherer mit deinem eigenen Computer – mit Geräte-Kopplung, Benutzerkonto und Freigaben für sensible Aktionen.**
 
 **Wichtiger Hinweis zur offiziellen Installation und Lizenz:** EXZA Remote ist ein **proprietärer MCP-Dienst**, kein Open-Source-Projekt und kein offiziell über npm veröffentlichtes MCP-Paket. Verwende **nicht** den von Drittseiten vorgeschlagenen Befehl `claude mcp add exza-remote -- npx exza-remote` – dies ist **kein offizieller EXZA-Installationsbefehl**. Registriere dich unter [remote.exza.de](https://remote.exza.de/app/?register=1), installiere den überprüften Client nach der [offiziellen Anleitung](docs/GETTING_STARTED.md) und verbinde deinen unterstützten KI-Client über `https://remote.exza.de/mcp` mit EXZA OAuth. Eine Geräte-PIN gehört niemals als Zugangstoken in einen KI-Client. Für Sicherheitsmeldungen siehe [SECURITY.md](SECURITY.md), für den Lizenzstatus [NOTICE.md](NOTICE.md).
 
-[**Offizielle Website**](https://remote.exza.de/) · [**Kundenportal**](https://remote.exza.de/app/) · [**Terminal-Installation**](#exza-remote-installieren--terminal-befehle) · [**Hilfe auf Deutsch**](https://remote.exza.de/hilfe) · [**English README**](README.md)
+[**Offizielle Website**](https://remote.exza.de/) · [**Kundenportal**](https://remote.exza.de/app/) · [**Terminal-Installation**](#exza-remote-installieren--terminal-befehle) · [**Hilfe auf Deutsch**](https://remote.exza.de/hilfe) · [**English README**](README.md) · [**NEU: Glama verbinden**](docs/GLAMA_INTEGRATION.md)
 
 ## EXZA Remote direkt im ChatGPT-Web-Chat nutzen – nicht nur mit Codex
 
