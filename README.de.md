@@ -1,5 +1,7 @@
 # EXZA Remote — AI Computer Commander
 
+[![mcptry — Live MCP server status](https://mcptry.com/badge/io.github.exzade/exza-remote)](https://mcptry.com/servers/io.github.exzade/exza-remote)
+
 **Dein Computer. Deine Kontrolle. Mit ChatGPT und Claude.**
 
 **Verbinde ChatGPT, Claude und kompatible KI-Assistenten sicherer mit deinem eigenen Computer – mit Geräte-Kopplung, Benutzerkonto und Freigaben für sensible Aktionen.**
