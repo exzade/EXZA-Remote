@@ -1,7 +1,7 @@
 # EXZA Remote — AI Computer Commander
 
 **NEU — EXZA Remote jetzt bei Glama entdecken und verbinden.** <a href="https://glama.ai/mcp/connectors/de.exza.remote/exza-remote"><img src="https://remote.exza.de/assets/third-party/glama-mark.webp" alt="Glama MCP-Verzeichnis" width="34" height="34" /></a>  
-**[Verifizierter Glama-Connector](https://glama.ai/mcp/connectors/de.exza.remote/exza-remote)** · [**Glama verbinden – vollständige Anleitung**](docs/GLAMA_INTEGRATION.md) · [**Datenschutz & Freigaben**](https://remote.exza.de/legal/datenschutz)
+**[Verifizierter Glama-Connector](https://glama.ai/mcp/connectors/de.exza.remote/exza-remote)** · [**Neu: Englische Gesamtübersicht mit 59 Werkzeugen**](docs/GLAMA_OVERVIEW.md) · [**Glama verbinden – Deutsch/Englisch**](docs/GLAMA_INTEGRATION.md) · [**Datenschutz & Freigaben**](https://remote.exza.de/legal/datenschutz)
 
 [![mcptry — Live MCP server status](https://mcptry.com/badge/io.github.exzade/exza-remote)](https://mcptry.com/servers/io.github.exzade/exza-remote)
 
