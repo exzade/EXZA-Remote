@@ -8,7 +8,7 @@
 
 ### AI Computer Commander
 
-**NEW — EXZA Remote is available on Glama.** [![Glama MCP connector](https://remote.exza.de/assets/third-party/glama-mark.webp)](https://glama.ai/mcp/connectors/de.exza.remote/exza-remote)  
+**NEW — EXZA Remote is available on Glama.** <a href="https://glama.ai/mcp/connectors/de.exza.remote/exza-remote"><img src="https://remote.exza.de/assets/third-party/glama-mark.webp" alt="Glama MCP Directory" width="34" height="34" /></a>  
 **[Explore the verified Glama MCP connector](https://glama.ai/mcp/connectors/de.exza.remote/exza-remote)** · [**Connect via OAuth — step-by-step setup**](docs/GLAMA_INTEGRATION.md) · [**Privacy & permissions**](https://remote.exza.de/legal/datenschutz)
 
 [![mcptry — Live MCP server status](https://mcptry.com/badge/io.github.exzade/exza-remote)](https://mcptry.com/servers/io.github.exzade/exza-remote)
