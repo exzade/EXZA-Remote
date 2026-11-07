@@ -2,6 +2,8 @@
 
 **New integration · Secure remote MCP · macOS / Windows / Linux**
 
+**[Complete English Glama Overview — terminal installation, OAuth, security and all 59 tools](GLAMA_OVERVIEW.md)**
+
 <a href="https://glama.ai/mcp/connectors/de.exza.remote/exza-remote"><img src="https://remote.exza.de/assets/third-party/glama-mark.webp" alt="Glama MCP directory" width="64" height="64" /></a>
 
 **[Open EXZA Remote on Glama](https://glama.ai/mcp/connectors/de.exza.remote/exza-remote)** · [Create an EXZA account](https://remote.exza.de/app/?register=1) · [Official setup and troubleshooting](https://remote.exza.de/help#manual-glama)
