@@ -8,9 +8,12 @@
 
 ### AI Computer Commander
 
+**NEW — EXZA Remote is available on Glama.** [![Glama MCP connector](https://remote.exza.de/assets/third-party/glama-mark.webp)](https://glama.ai/mcp/connectors/de.exza.remote/exza-remote)  
+**[Explore the verified Glama MCP connector](https://glama.ai/mcp/connectors/de.exza.remote/exza-remote)** · [**Connect via OAuth — step-by-step setup**](docs/GLAMA_INTEGRATION.md) · [**Privacy & permissions**](https://remote.exza.de/legal/datenschutz)
+
 [![mcptry — Live MCP server status](https://mcptry.com/badge/io.github.exzade/exza-remote)](https://mcptry.com/servers/io.github.exzade/exza-remote)
 
-Your computer. Your control. With ChatGPT and Claude.
+Your computer. Your control. Connect with ChatGPT and Claude. Discover and inspect EXZA Remote on Glama.
 
 **EXZA Remote — AI Computer Commander.**
 
@@ -18,15 +21,15 @@ Your computer. Your control. With ChatGPT and Claude.
 
 **Official installation and licensing notice:** EXZA Remote is a **proprietary, hosted MCP service**, not an open-source or npm-distributed MCP package. **Do not use** the third-party command `claude mcp add exza-remote -- npx exza-remote`: it is **not an official EXZA installation command**. Instead, sign up at [remote.exza.de](https://remote.exza.de/app/?register=1), install the verified computer client using the [official instructions](docs/GETTING_STARTED.md), and add the HTTPS MCP endpoint `https://remote.exza.de/mcp` in your supported AI client using EXZA OAuth. Do not enter a device PIN as an API token. Report suspected security issues according to [SECURITY.md](SECURITY.md). See [NOTICE.md](NOTICE.md) for the proprietary licensing scope.
 
-[**Visit Website**](https://remote.exza.de/) · [**Get Started**](https://remote.exza.de/app/) · [**Installation Commands**](#install-exza-remote--terminal-commands) · [**Documentation**](https://remote.exza.de/help) · [**Explore Prompt Library**](https://remote.exza.de/prompts/)
+[**Visit Website**](https://remote.exza.de/) · [**Get Started**](https://remote.exza.de/app/) · [**Installation Commands**](#install-exza-remote--terminal-commands) · [**Documentation**](https://remote.exza.de/help) · [**Explore Prompt Library**](https://remote.exza.de/prompts/) · [**NEW: Glama integration**](docs/GLAMA_INTEGRATION.md)
 
 ### Use EXZA Remote directly in ChatGPT on the web — not only in Codex
 
 **No Codex installation is required for supported ChatGPT web conversations.** Connect the EXZA Remote MCP server in ChatGPT's Plugins interface (where your account or workspace allows custom MCP connections), pair your own computer, and ask ChatGPT to inspect permitted files, check a process, or run an owner-approved terminal command **right in the conversation**. ChatGPT Work and Codex are other supported ways to work with MCP tools where available; Claude can use a compatible custom MCP connection too.
 
-**Connect:** [Create your EXZA account](https://remote.exza.de/app/?register=1) → pair your Mac, Windows, or Linux computer → in supported **ChatGPT Web → Plugins → Add custom MCP server**, use **`https://remote.exza.de/mcp`** and sign in through EXZA OAuth → select EXZA Remote in your chat. [Step-by-step ChatGPT & Claude setup](docs/AI_MCP_GUIDE.md).
+**Connect:** [Create your EXZA account](https://remote.exza.de/app/?register=1) → pair your Mac, Windows, or Linux computer → in supported **ChatGPT Web → Plugins → Add custom MCP server**, use **`https://remote.exza.de/mcp`** and sign in through EXZA OAuth → select EXZA Remote in your chat. [Step-by-step ChatGPT & Claude setup](docs/AI_MCP_GUIDE.md) · [Glama MCP directory & Inspector setup](docs/GLAMA_INTEGRATION.md).
 
-*ChatGPT availability, full computer/write actions and plugin creation depend on plan, workspace permissions and OpenAI's supported surfaces. Public directory listing is separate from a manually connected MCP server. EXZA Remote is independent of OpenAI and Anthropic.*
+*ChatGPT availability, full computer/write actions and plugin creation depend on plan, workspace permissions and OpenAI's supported surfaces. Public directory listing is separate from a manually connected MCP server. EXZA Remote is independent of OpenAI, Anthropic and Glama.*
 
 [Deutsch](README.de.md) · [Security](SECURITY.md) · [Support](https://remote.exza.de/help)
 
