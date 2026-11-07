@@ -8,6 +8,8 @@
 
 ### AI Computer Commander
 
+[![mcptry — Live MCP server status](https://mcptry.com/badge/io.github.exzade/exza-remote)](https://mcptry.com/servers/io.github.exzade/exza-remote)
+
 Your computer. Your control. With ChatGPT and Claude.
 
 **EXZA Remote — AI Computer Commander.**
