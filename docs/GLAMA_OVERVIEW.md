@@ -118,11 +118,13 @@ claude mcp list
 
 Use the direct HTTPS endpoint and follow OAuth in the client. Do **not** use a directory-generated “npx exza-remote” installation command: EXZA Remote is not distributed as such a package.
 
-### Step 5 — Start with a safe read-only test
+### Step 5 — Start with a connection-status check
 
-- **exza_get_connection_status** — check the paired computer's EXZA connection state.
-- **exza_get_system_info** — inspect supported operating-system and hardware information.
-- **exza_list_home_files** — list names in a permitted managed home folder.
+- **exza_get_connection_status** — a safe connection-status test using the **computer:read** OAuth scope.
+- **exza_get_system_info** — request system details only when needed; the current EXZA server requires **computer:write** authorization for these potentially private details.
+- **exza_list_home_files** — list permitted managed-home folder names only when needed; this privacy-sensitive read also requires **computer:write** authorization.
+
+**Important:** A tool can be read-only in its effect on files but still require elevated OAuth authorization to access sensitive information. Do not grant write scopes just to improve a directory health check.
 
 Glama's presentation may use these consistent names; existing ChatGPT/Claude integrations may use earlier names (such as **exza_status**) for the same protected operations.
 
