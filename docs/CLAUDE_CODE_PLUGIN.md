@@ -54,3 +54,14 @@ The plugin in [`plugins/exza-remote/`](../plugins/exza-remote) contains a Claude
 - Do not put login passwords, pairing PINs or OAuth access tokens in GitHub issues.
 
 [Help center](https://remote.exza.de/help) · [Privacy](https://remote.exza.de/legal/datenschutz.html) · [Terms](https://remote.exza.de/legal/nutzungsbedingungen.html) · [Security reporting](../SECURITY.md) · **info@exza.de**
+
+## RC50 client update & Anthropic directory submission
+
+EXZA Remote Connection **1.9.0-rc50** fixes Windows full-window-title focus and verified Unicode/long text input in compatible Windows editors. The remote MCP endpoint and its **84 server tool definitions** are unchanged.
+
+For **Anthropic's public directory** use [the submission portal](https://claude.ai/directory/manage) with this [GitHub-hosted plugin folder](../plugins/exza-remote), or submit a **single remote MCP connector** pointing to https://remote.exza.de/mcp. A suitable paid Claude subscription is required for submission.
+
+**[Download standalone Claude plugin ZIP RC50](https://remote.exza.de/downloads/exza-remote-claude-code-plugin-rc50.zip)** · [Download Windows/Mac/Linux RC50 client](https://remote.exza.de/downloads/exza-remote-client-rc50.zip)
+
+The **marketplace ZIP** is for local/organization marketplace setup, **not** for submitting a single plugin.
+

@@ -38,3 +38,14 @@ Danach in Claude Code `/mcp` öffnen und die EXZA-Remote-Anmeldung durchführen.
 **Kosten:** Die GitHub-Veröffentlichung dieses Plugin-Verzeichnisses ist kostenlos. EXZA Remote bietet je nach aktuellem Angebot kostenlose Nutzung und optionale Premium-Tarife; Claude-Abonnements bzw. -Nutzung können unabhängig davon kostenpflichtig sein.
 
 **Hilfe:** [EXZA Support](https://remote.exza.de/hilfe) · [Datenschutz](https://remote.exza.de/legal/datenschutz.html) · [Nutzungsbedingungen](https://remote.exza.de/legal/nutzungsbedingungen.html) · [Sicherheitsmeldungen](../SECURITY.md) · info@exza.de
+
+## RC50-Client und Einreichung ins offizielle Claude-Verzeichnis
+
+**EXZA Remote Connection 1.9.0-rc50** korrigiert die Windows-Fensteraktivierung über vollständige Titel und prüft Unicode- sowie lange Texteingaben in unterstützten Windows-Editoren. MCP-Server und **84 Werkzeugdefinitionen** bleiben unverändert.
+
+Für die **öffentliche Anthropic-Einreichung** das [Einreichungsportal](https://claude.ai/directory/manage) verwenden und auf den [GitHub-Plugin-Ordner](../plugins/exza-remote) verweisen. Alternativ nur den **Remote-MCP-Connector** mit der URL https://remote.exza.de/mcp einreichen. Dafür ist ein geeigneter kostenpflichtiger Claude-Tarif erforderlich.
+
+**[Claude-Plugin RC50 herunterladen](https://remote.exza.de/downloads/exza-remote-claude-code-plugin-rc50.zip)** · [Windows-/Mac-/Linux-Client RC50 herunterladen](https://remote.exza.de/downloads/exza-remote-client-rc50.zip)
+
+Das **Marketplace-ZIP** ist für lokale/organisationsinterne Installationen bestimmt, **nicht** für die Einreichung eines einzelnen Plugins.
+

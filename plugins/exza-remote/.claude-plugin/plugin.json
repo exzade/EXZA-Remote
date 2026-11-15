@@ -1,8 +1,8 @@
 {
   "name": "exza-remote",
   "displayName": "EXZA Remote – Computer Control",
-  "version": "1.9.0-rc49",
-  "description": "Connect Claude Code to an owner-authorized Mac, Windows or Linux computer using the EXZA Remote OAuth-protected MCP server.",
+  "version": "1.9.0-rc50",
+  "description": "Connect Claude and Claude Code to an owner-authorized Mac, Windows or Linux computer through EXZA Remote's OAuth-protected MCP server with 84 tools.",
   "author": {
     "name": "EXZA Remote",
     "email": "info@exza.de",
