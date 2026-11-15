@@ -1,0 +1,15 @@
+{
+  "name": "exza-remote-marketplace",
+  "description": "Official EXZA Remote plugin marketplace for connecting Claude Code to owner-authorized macOS, Windows and Linux computers.",
+  "owner": {
+    "name": "EXZA Remote",
+    "email": "info@exza.de"
+  },
+  "plugins": [
+    {
+      "name": "exza-remote",
+      "source": "./plugins/exza-remote",
+      "description": "Control your own Mac, Windows or Linux PC with EXZA Remote: remote MCP tools, files, apps, browser and terminal through OAuth and physical terminal approval."
+    }
+  ]
+}

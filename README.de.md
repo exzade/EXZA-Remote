@@ -9,6 +9,22 @@
 
 **Verbinde ChatGPT, Claude und kompatible KI-Assistenten sicherer mit deinem eigenen Computer – mit Geräte-Kopplung, Benutzerkonto und Freigaben für sensible Aktionen.**
 
+## NEU: EXZA Remote Plugin für Claude Code auf GitHub
+
+**Claude Code mit deinem Mac, Windows-PC oder Linux-Rechner verbinden.** Der öffentliche EXZA-Remote-Server bietet 84 MCP-Werkzeugdefinitionen mit OAuth-Anmeldung und physischer Y/N-Freigabe des Gerätebesitzers.
+
+~~~bash
+claude plugin marketplace add exzade/EXZA-Remote
+claude plugin install exza-remote@exza-remote-marketplace
+~~~
+
+**[Claude-Code-Plugin installieren – Anleitung](docs/CLAUDE_CODE_PLUGIN.de.md)** · [EXZA-Konto erstellen](https://remote.exza.de/app/?register=1&utm_source=github&utm_medium=repository&utm_campaign=claude_code_de) · [Aktuelle 84 Werkzeuge](https://remote.exza.de/de/tools/)
+
+> Für Claude im Browser wird kein Plugin-ZIP benötigt: Stattdessen `https://remote.exza.de/mcp` unter Connectors einrichten. Das GitHub-Plugin ist unabhängig von einer offiziellen Anthropic-Verzeichnisfreigabe.
+
+---
+
+
 **Wichtiger Hinweis zur offiziellen Installation und Lizenz:** EXZA Remote ist ein **proprietärer MCP-Dienst**, kein Open-Source-Projekt und kein offiziell über npm veröffentlichtes MCP-Paket. Verwende **nicht** den von Drittseiten vorgeschlagenen Befehl `claude mcp add exza-remote -- npx exza-remote` – dies ist **kein offizieller EXZA-Installationsbefehl**. Registriere dich unter [remote.exza.de](https://remote.exza.de/app/?register=1), installiere den überprüften Client nach der [offiziellen Anleitung](docs/GETTING_STARTED.md) und verbinde deinen unterstützten KI-Client über `https://remote.exza.de/mcp` mit EXZA OAuth. Eine Geräte-PIN gehört niemals als Zugangstoken in einen KI-Client. Für Sicherheitsmeldungen siehe [SECURITY.md](SECURITY.md), für den Lizenzstatus [NOTICE.md](NOTICE.md).
 
 [**Offizielle Website**](https://remote.exza.de/) · [**Kundenportal**](https://remote.exza.de/app/) · [**Terminal-Installation**](#exza-remote-installieren--terminal-befehle) · [**Hilfe auf Deutsch**](https://remote.exza.de/hilfe) · [**English README**](README.md) · [**NEU: Glama verbinden**](docs/GLAMA_INTEGRATION.md)

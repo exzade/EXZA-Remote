@@ -37,6 +37,21 @@ Your computer. Your control. Connect with ChatGPT and Claude. Discover and inspe
 
 ---
 
+## NEW — Install the EXZA Remote Claude Code plugin from GitHub
+
+Bring EXZA Remote's **84 MCP tool definitions** to your own Mac, Windows or Linux computer through **Claude Code**. The plugin is distributed directly from this GitHub repository, with EXZA OAuth and local Y/N owner approval.
+
+~~~bash
+claude plugin marketplace add exzade/EXZA-Remote
+claude plugin install exza-remote@exza-remote-marketplace
+~~~
+
+**[Get started with the Claude Code plugin](docs/CLAUDE_CODE_PLUGIN.md)** · [Install the computer client](https://remote.exza.de/app/?register=1&utm_source=github&utm_medium=repository&utm_campaign=claude_code) · [Live 84-tool catalog](https://remote.exza.de/tools/)
+
+> For Claude.ai and Claude Desktop, add the existing `https://remote.exza.de/mcp` URL as a custom remote MCP connector. This independent GitHub plugin is **not** an Anthropic directory approval.
+
+---
+
 ## AI remote computer access with MCP — without giving up control
 
 EXZA Remote helps developers, creators, and technical teams connect **ChatGPT or Claude to their own computer** through the **Model Context Protocol (MCP)**. It is a remotely accessible MCP service with a local computer client, not a cloud-hosted virtual desktop or a generic code repository.
