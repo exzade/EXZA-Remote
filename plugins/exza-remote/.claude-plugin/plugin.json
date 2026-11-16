@@ -23,5 +23,7 @@
     "files",
     "terminal"
   ],
-  "defaultEnabled": true
+  "defaultEnabled": true,
+  "icon": "./icon.png",
+  "repository": "https://github.com/exzade/EXZA-Remote"
 }
